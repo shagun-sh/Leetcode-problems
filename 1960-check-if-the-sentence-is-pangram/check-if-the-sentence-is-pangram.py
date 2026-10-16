@@ -5,17 +5,7 @@ class Solution(object):
         :rtype: bool
         """
        
-        # unique_chars = {}
-
-        # for char in sentence:
-        #     unique_chars[char] = True  
-        # total_unique = len(unique_chars)
-    
-        
-        # if total_unique==26:
-        #     return True
-        # else:
-        #     return False
+       
 
         freq=[0]*26
         for i in sentence:
